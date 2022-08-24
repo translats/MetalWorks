@@ -28,11 +28,11 @@ enum MetalWorksArmor {
             Material.IRON_LEGGINGS,
             Material.IRON_BOOTS),
 
-    Diamond
-            (Material.DIAMOND_HELMET,
-                    Material.DIAMOND_CHESTPLATE,
-                    Material.DIAMOND_LEGGINGS,
-                    Material.DIAMOND_BOOTS),
+    Diamond(
+            Material.DIAMOND_HELMET,
+            Material.DIAMOND_CHESTPLATE,
+            Material.DIAMOND_LEGGINGS,
+            Material.DIAMOND_BOOTS),
 
     Netherite(
             Material.NETHERITE_HELMET,
