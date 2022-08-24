@@ -2,9 +2,8 @@ package me.jasperchasetoq.metalworks.api;
 
 import org.bukkit.Material;
 
-public class MetalWorksTools {
 
-    enum MetalWorksArmor {
+enum MetalWorksTools {
 
         Wood(
                 Material.WOODEN_PICKAXE,
@@ -47,7 +46,7 @@ public class MetalWorksTools {
         public final Material shovel;
         public final Material hoe;
 
-        MetalWorksArmor(Material pickaxe, Material axe, Material shovel, Material hoe) {
+        MetalWorksTools(Material pickaxe, Material axe, Material shovel, Material hoe) {
             this.pickaxe = pickaxe;
             this.axe = axe;
             this.shovel = shovel;
@@ -69,4 +68,4 @@ public class MetalWorksTools {
     }
 
 
-}
+

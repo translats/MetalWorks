@@ -1,8 +1,10 @@
 package me.jasperchasetoq.metalworks;
 
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.items.groups.NestedItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.groups.SubItemGroup;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import me.jasperchasetoq.metalworks.api.MetalWorksArmor;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 
@@ -21,6 +23,21 @@ public class MetalWorksItems {
     public static final SubItemGroup Bows = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "BOWS"), MetalWorks_General, new CustomItemStack(Material.BOW, "&fMetalworks Bows"));
     public static final SubItemGroup Crossbows = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "CROSSBOWS"), MetalWorks_General, new CustomItemStack(Material.CROSSBOW, "&fMetalworks Crossbows"));
     public static final SubItemGroup Tridents = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "TRIDENTS"), MetalWorks_General, new CustomItemStack(Material.TRIDENT, "&fMetalworks Tridents"));
+
+    public static final SlimefunItemStack JC_GOLD_4k_HELMET = new SlimefunItemStack("JC_GOLD_4k_HELMET", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+    public static final SlimefunItemStack JC_GOLD_4k_CHESTPLATE = new SlimefunItemStack("JC_GOLD_4k_CHESTPLATE", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+    public static final SlimefunItemStack JC_GOLD_4k_LEGGINGS = new SlimefunItemStack("JC_GOLD_4k_LEGGINGS", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+    public static final SlimefunItemStack JC_GOLD_4k_BOOTS = new SlimefunItemStack("JC_GOLD_4k_BOOTS", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+    public static final SlimefunItemStack JC_GOLD_4k_SWORD = new SlimefunItemStack("JC_GOLD_4k_SWORDS", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+    public static final SlimefunItemStack JC_GOLD_4k_PICKAXE = new SlimefunItemStack("JC_GOLD_4k_PICKAXE", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+    public static final SlimefunItemStack JC_GOLD_4k_AXE = new SlimefunItemStack("JC_GOLD_4k_AXE", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+    public static final SlimefunItemStack JC_GOLD_4k_SHOVEL = new SlimefunItemStack("JC_GOLD_4k_SHOVEL", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+    public static final SlimefunItemStack JC_GOLD_4k_HOE = new SlimefunItemStack("JC_GOLD_4k_HOE", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+    public static final SlimefunItemStack JC_GOLD_4k_SHIELD = new SlimefunItemStack("JC_GOLD_4k_SHIELD", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+    public static final SlimefunItemStack JC_GOLD_4k_BOW = new SlimefunItemStack("JC_GOLD_4k_BOW", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+    public static final SlimefunItemStack JC_GOLD_4k_CROSSBOW = new SlimefunItemStack("JC_GOLD_4k_CROSSBOW", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+    public static final SlimefunItemStack JC_GOLD_4k_TRIDENT = new SlimefunItemStack("JC_GOLD_4k_TRIDENT", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
+
 
 
 
