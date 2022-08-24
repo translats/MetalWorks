@@ -1,5 +1,6 @@
 package me.jasperchasetoq.metalworks;
 
+
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
@@ -30,10 +31,12 @@ public class MetalWorks extends JavaPlugin implements SlimefunAddon {
             Metrics metrics = new Metrics(this, pluginId);
         }
     }
+
     @Override
     public void onDisable() {
         // Logic for disabling the plugin...
     }
+
     @Override
     public String getBugTrackerURL() {
         return "https://github.com/JasperChaseTOQ/MetalWorks/issues";
@@ -58,3 +61,4 @@ public class MetalWorks extends JavaPlugin implements SlimefunAddon {
         return instance.getDescription().getVersion();
     }
 }
+
