@@ -1,4 +1,4 @@
-package me.CHANGEME.slimefunaddon;
+package me.jasperchasetoq.metalworks;
 
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
