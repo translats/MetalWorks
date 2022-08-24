@@ -1,6 +1,8 @@
 package me.CHANGEME.slimefunaddon;
 
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import org.bstats.bukkit.Metrics;
 
 import org.bukkit.plugin.java.JavaPlugin;
@@ -8,7 +10,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import javax.annotation.Nonnull;
 import java.io.File;
 
-public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
+public class MetalWorks extends JavaPlugin implements SlimefunAddon {
 
 
     @Override
@@ -24,7 +26,7 @@ public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
         if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
             new GitHubBuildsUpdater(this, getFile(), "JasperChaseTOQ/MetalWorks/master").start();
 
-            int pluginId = 15656; // <-- Replace with the id of your plugin!
+            int pluginId = 16258; // <-- Replace with the id of your plugin!
             Metrics metrics = new Metrics(this, pluginId);
         }
     }
