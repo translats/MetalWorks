@@ -4,6 +4,7 @@ package me.jasperchasetoq.metalworks;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
+import me.jasperchasetoq.metalworks.setup.MetalWorksItemSetup;
 import org.bstats.bukkit.Metrics;
 
 import org.bukkit.plugin.java.JavaPlugin;
@@ -19,7 +20,7 @@ public class MetalWorks extends JavaPlugin implements SlimefunAddon {
 
         Config cfg = new Config(this);
 
-        MetalWorksItemsSetup.setup(this);
+        MetalWorksItemSetup.setup(this);
         if (!new File(getDataFolder(), "config.yml").exists()) {
             saveDefaultConfig();
         }
