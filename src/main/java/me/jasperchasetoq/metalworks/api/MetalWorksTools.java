@@ -31,7 +31,7 @@ public class MetalWorksTools {
                 Material.IRON_HOE),
 
         Diamond(
-                Material.DIAMOND_PICKAXE,
+                Material.DIAMOND_PICKAXE, 
                 Material.DIAMOND_AXE,
                 Material.DIAMOND_SHOVEL,
                 Material.DIAMOND_HOE),
@@ -42,28 +42,28 @@ public class MetalWorksTools {
                 Material.NETHERITE_SHOVEL,
                 Material.NETHERITE_HOE);
 
-        public final Material helmet;
-        public final Material chestplate;
-        public final Material leggings;
-        public final Material boots;
+        public final Material pickaxe;
+        public final Material axe;
+        public final Material shovel;
+        public final Material hoe;
 
-        MetalWorksArmor(Material helmet, Material chestplate, Material leggings, Material boots) {
-            this.helmet = helmet;
-            this.chestplate = chestplate;
-            this.leggings = leggings;
-            this.boots = boots;
+        MetalWorksArmor(Material pickaxe, Material axe, Material shovel, Material hoe) {
+            this.pickaxe = pickaxe;
+            this.axe = axe;
+            this.shovel = shovel;
+            this.hoe = hoe;
         }
-        public Material GetHelmet(){
-            return helmet;
+        public Material GetPickaxe(){
+            return pickaxe;
         }
-        public Material GetChestplate(){
-            return chestplate;
+        public Material GetAxe(){
+            return axe;
         }
-        public Material GetLeggings(){
-            return leggings;
+        public Material GetShovel(){
+            return shovel;
         }
-        public Material GetBoots(){
-            return boots;
+        public Material GetHoe(){
+            return hoe;
         }
 
     }
