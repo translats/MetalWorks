@@ -58,8 +58,6 @@ public class MetalWorks extends JavaPlugin implements SlimefunAddon {
     public static MetalWorks getInstance() {
         return instance;
     }
-    public static String getVersion() {
-        return instance.getDescription().getVersion();
-    }
+
 }
 
