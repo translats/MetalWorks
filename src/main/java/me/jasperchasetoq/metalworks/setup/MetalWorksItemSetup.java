@@ -23,7 +23,7 @@ public class MetalWorksItemSetup {
 
         registerHelmet(MetalWorksItems.Helmets, SlimefunItems.GOLD_4K, new ItemStack[]{
                 MetalWorksItems.JC_GOLD_4K_HELMET
-        }, "GOLDEN_4K", plugin);
+        }, "JC_GOLD_4K", plugin);
     }
 
     @ParametersAreNonnullByDefault
