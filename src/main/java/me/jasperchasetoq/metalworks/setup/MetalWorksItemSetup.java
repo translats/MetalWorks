@@ -42,13 +42,61 @@ public class MetalWorksItemSetup {
                 MetalType, null, MetalType,
                 MetalType, MetalType, MetalType,
                 MetalType, MetalType, MetalType});
-        recipes.add(new ItemStack[]{MetalType, MetalType, MetalType, MetalType, null, MetalType, MetalType, null, MetalType});
-        recipes.add(new ItemStack[]{null, null, null, MetalType, null, MetalType, MetalType, null, MetalType});
-        recipes.add(new ItemStack[]{MetalType, MetalType, MetalType, MetalType, null, MetalType, null, new ItemStack(Material.STICK), null});
-        recipes.add(new ItemStack[]{MetalType, MetalType, MetalType, MetalType, null, MetalType, null, null, null});
-        recipes.add(new ItemStack[]{MetalType, MetalType, MetalType, MetalType, null, MetalType, null, null, null});
-        recipes.add(new ItemStack[]{MetalType, MetalType, MetalType, MetalType, null, MetalType, null, null, null});
-        recipes.add(new ItemStack[]{MetalType, MetalType, MetalType, MetalType, null, MetalType, null, null, null});
+        //Leggings
+        recipes.add(new ItemStack[]{
+                MetalType, MetalType, MetalType,
+                MetalType, null, MetalType,
+                MetalType, null, MetalType});
+        //Boots
+        recipes.add(new ItemStack[]{
+                null, null, null,
+                MetalType, null, MetalType,
+                MetalType, null, MetalType});
+        //Swords
+        recipes.add(new ItemStack[]{
+                MetalType, MetalType, MetalType,
+                MetalType, null, MetalType,
+                null, new ItemStack(Material.STICK), null});
+        //Pickaxes
+        recipes.add(new ItemStack[]{
+                MetalType, MetalType, MetalType,
+                MetalType, null, MetalType,
+                null, null, null});
+        //Axes
+        recipes.add(new ItemStack[]{
+                MetalType, MetalType, MetalType,
+                MetalType, null, MetalType,
+                null, null, null});
+        //Shovels
+        recipes.add(new ItemStack[]{
+                MetalType, MetalType, MetalType,
+                MetalType, null, MetalType,
+                null, null, null});
+        //Hoes
+        recipes.add(new ItemStack[]{
+                MetalType, MetalType, MetalType,
+                MetalType, null, MetalType,
+                null, null, null});
+        //Shields
+        recipes.add(new ItemStack[]{
+                MetalType, MetalType, MetalType,
+                MetalType, null, MetalType,
+                null, null, null});
+        //Bows
+        recipes.add(new ItemStack[]{
+                MetalType, MetalType, MetalType,
+                MetalType, null, MetalType,
+                null, null, null});
+        //CrossBows
+        recipes.add(new ItemStack[]{
+                MetalType, MetalType, MetalType,
+                MetalType, null, MetalType,
+                null, null, null});
+        //Tridents
+        recipes.add(new ItemStack[]{
+                MetalType, MetalType, MetalType,
+                MetalType, null, MetalType,
+                null, null, null});
 
 
         for (int i = 0; i < 13; i++) {
