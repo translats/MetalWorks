@@ -54,32 +54,32 @@ public class MetalWorksItemSetup {
                 MetalType, null, MetalType});
         //Swords
         recipes.add(new ItemStack[]{
-                null, null, null,
-                null, null, null,
+                null, MetalType, null,
+                null, MetalType, null,
                 null, new ItemStack(Material.STICK), null});
         //Pickaxes
         recipes.add(new ItemStack[]{
-                null, null, null,
-                null, null, null,
-                null, null, null});
+                MetalType, MetalType, MetalType,
+                null, new ItemStack(Material.STICK), null,
+                null, new ItemStack(Material.STICK), null});
         //Axes
         recipes.add(new ItemStack[]{
                 null, null, null,
-                null, null, null,
-                null, null, null});
+                null, new ItemStack(Material.STICK), null,
+                null, new ItemStack(Material.STICK), null});
         //Shovels
         recipes.add(new ItemStack[]{
                 null, null, null,
-                null, null, null,
-                null, null, null});
+                null, new ItemStack(Material.STICK), null,
+                null, new ItemStack(Material.STICK), null});
         //Hoes
         recipes.add(new ItemStack[]{
                 null, null, null,
-                null, null, null,
-                null, null, null});
+                null, new ItemStack(Material.STICK), null,
+                null, new ItemStack(Material.STICK), null});
         //Shields
         recipes.add(new ItemStack[]{
-                null, null, null,
+                null, MetalType, new ItemStack(Material.STICK),
                 null, null, null,
                 null, null, null});
         //Bows
