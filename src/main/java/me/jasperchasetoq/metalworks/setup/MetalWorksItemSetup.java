@@ -54,48 +54,48 @@ public class MetalWorksItemSetup {
                 MetalType, null, MetalType});
         //Swords
         recipes.add(new ItemStack[]{
-                MetalType, MetalType, MetalType,
-                MetalType, null, MetalType,
+                null, null, null,
+                null, null, null,
                 null, new ItemStack(Material.STICK), null});
         //Pickaxes
         recipes.add(new ItemStack[]{
-                MetalType, MetalType, MetalType,
-                MetalType, null, MetalType,
+                null, null, null,
+                null, null, null,
                 null, null, null});
         //Axes
         recipes.add(new ItemStack[]{
-                MetalType, MetalType, MetalType,
-                MetalType, null, MetalType,
+                null, null, null,
+                null, null, null,
                 null, null, null});
         //Shovels
         recipes.add(new ItemStack[]{
-                MetalType, MetalType, MetalType,
-                MetalType, null, MetalType,
+                null, null, null,
+                null, null, null,
                 null, null, null});
         //Hoes
         recipes.add(new ItemStack[]{
-                MetalType, MetalType, MetalType,
-                MetalType, null, MetalType,
+                null, null, null,
+                null, null, null,
                 null, null, null});
         //Shields
         recipes.add(new ItemStack[]{
-                MetalType, MetalType, MetalType,
-                MetalType, null, MetalType,
+                null, null, null,
+                null, null, null,
                 null, null, null});
         //Bows
         recipes.add(new ItemStack[]{
-                MetalType, MetalType, MetalType,
-                MetalType, null, MetalType,
+                null, null, null,
+                null, null, null,
                 null, null, null});
         //CrossBows
         recipes.add(new ItemStack[]{
-                MetalType, MetalType, MetalType,
-                MetalType, null, MetalType,
+                null, null, null,
+                null, null, null,
                 null, null, null});
         //Tridents
         recipes.add(new ItemStack[]{
-                MetalType, MetalType, MetalType,
-                MetalType, null, MetalType,
+                null, null, null,
+                null, null, null,
                 null, null, null});
 
 
