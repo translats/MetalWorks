@@ -21,9 +21,9 @@ public class MetalWorksItemSetup {
 
     public static void setup(@Nonnull MetalWorks plugin) {
 
-        registerHelmet(MetalWorksItems.Helmets, SlimefunItems.GILDED_IRON, new ItemStack[]{
-                SlimefunItems.GILDED_IRON_HELMET
-        }, "GILDED_IRON", plugin);
+        registerHelmet(MetalWorksItems.Helmets, SlimefunItems.GOLD_4K, new ItemStack[]{
+                MetalWorksItems.JC_GOLD_4K_HELMET
+        }, "GOLDEN_4K", plugin);
     }
 
     @ParametersAreNonnullByDefault
