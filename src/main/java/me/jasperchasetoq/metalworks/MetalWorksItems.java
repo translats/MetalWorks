@@ -21,8 +21,7 @@ public class MetalWorksItems {
     public static final SubItemGroup Shields = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "SHIELDS"), MetalWorks_General, new CustomItemStack(Material.SHIELD, "&fMetalworks Shields"));
     public static final SubItemGroup Bows = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "BOWS"), MetalWorks_General, new CustomItemStack(Material.BOW, "&fMetalworks Bows"));
     public static final SubItemGroup Crossbows = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "CROSSBOWS"), MetalWorks_General, new CustomItemStack(Material.CROSSBOW, "&fMetalworks Crossbows"));
-    public static final SubItemGroup Tridents = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "TRIDENTS"), MetalWorks_General, new CustomItemStack(Material.TRIDENT, "&fMetalworks Tridents"));
-    
+
     public static final SlimefunItemStack JC_GOLD_4K_HELMET = new SlimefunItemStack("JC_GOLD_4K_HELMET", Material.GOLDEN_HELMET, "&fGolden Helmet &7(4-Carat)");
     public static final SlimefunItemStack JC_GOLD_4K_CHESTPLATE = new SlimefunItemStack("JC_GOLD_4_CHESTPLATE", Material.GOLDEN_CHESTPLATE, "&fGolden Chestplate &7(4-Carat)");
     public static final SlimefunItemStack JC_GOLD_4K_LEGGINGS = new SlimefunItemStack("JC_GOLD_4K_LEGGINGS", Material.GOLDEN_LEGGINGS, "&fGolden Leggings &7(4-Carat)");
@@ -35,9 +34,5 @@ public class MetalWorksItems {
     public static final SlimefunItemStack JC_GOLD_4K_SHIELD = new SlimefunItemStack("JC_GOLD_4K_SHIELD", Material.SHIELD, "&fGolden Shield &7(4-Carat)");
     public static final SlimefunItemStack JC_GOLD_4K_BOW = new SlimefunItemStack("JC_GOLD_4K_BOW", Material.BOW, "&fGolden Bow &7(4-Carat)");
     public static final SlimefunItemStack JC_GOLD_4K_CROSSBOW = new SlimefunItemStack("JC_GOLD_4K_CROSSBOW", Material.CROSSBOW, "&fGolden Crossbow &7(4-Carat)");
-    public static final SlimefunItemStack JC_GOLD_4K_TRIDENT = new SlimefunItemStack("JC_GOLD_4K_TRIDENT", Material.TRIDENT, "&fGolden Trident &7(4-Carat)");
-
-
-
 
 }

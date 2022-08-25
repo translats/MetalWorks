@@ -79,25 +79,19 @@ public class MetalWorksItemSetup {
                 null, new ItemStack(Material.STICK), null});
         //Shields
         recipes.add(new ItemStack[]{
-                null, MetalType, new ItemStack(Material.STICK),
-                null, null, null,
-                null, null, null});
+                MetalType, new ItemStack(Material.IRON_INGOT), MetalType,
+                MetalType, MetalType, MetalType,
+                null, MetalType, null});
         //Bows
         recipes.add(new ItemStack[]{
-                null, null, null,
-                null, null, null,
-                null, null, null});
+                null, MetalType, new ItemStack(Material.STRING),
+                MetalType, null, new ItemStack(Material.STRING),
+                null, MetalType, new ItemStack(Material.STRING)});
         //CrossBows
         recipes.add(new ItemStack[]{
-                null, null, null,
-                null, null, null,
-                null, null, null});
-        //Tridents
-        recipes.add(new ItemStack[]{
-                null, null, null,
-                null, null, null,
-                null, null, null});
-
+                MetalType, new ItemStack(Material.IRON_INGOT), MetalType,
+                MetalType, new ItemStack(Material.TRIPWIRE_HOOK), MetalType,
+                null, MetalType, null});
 
         for (int i = 0; i < 13; i++) {
             new SlimefunItem(itemGroup, new SlimefunItemStack(idSyntax + components[i], items[i]), RecipeType.ARMOR_FORGE, recipes.get(i)).register(MetalWorksGear);
