@@ -6,6 +6,7 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import me.jasperchasetoq.metalworks.setup.MetalWorksItemSetup;
 import org.bstats.bukkit.Metrics;
+import net.guizhanss.guizhanlibplugin.updater.GuizhanBuildsUpdaterWrapper;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -25,8 +26,8 @@ public class MetalWorks extends JavaPlugin implements SlimefunAddon {
             saveDefaultConfig();
         }
 
-        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
-            new GitHubBuildsUpdater(this, getFile(), "JasperChaseTOQ/MetalWorks/master").start();
+        if (getConfig().getBoolean("auto-update", true) && getDescription().getVersion().startsWith("Build")) {
+            GuizhanBuildsUpdaterWrapper.start(this, getFile(), "SlimefunGuguProject", "MetalWorks", "master", false);
 
             int pluginId = 16258; // <-- Replace with the id of your plugin!
             Metrics metrics = new Metrics(this, pluginId);
