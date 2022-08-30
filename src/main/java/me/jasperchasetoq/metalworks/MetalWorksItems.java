@@ -8,17 +8,17 @@ import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 
 public class MetalWorksItems {
-    public static final NestedItemGroup MetalWorks_General = new NestedItemGroup(new NamespacedKey(MetalWorks.getInstance(), "METALWORKS_GENERAL"), new CustomItemStack(Material.ANVIL, "&f金属工作"));
+    public static final NestedItemGroup MetalWorks_General = new NestedItemGroup(new NamespacedKey(MetalWorks.getInstance(), "METALWORKS_GENERAL"), new CustomItemStack(Material.ANVIL, "&f金属工艺"));
     public static final SubItemGroup Helmets = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "HELMETS"), MetalWorks_General, new CustomItemStack(Material.DIAMOND_HELMET, "&f金属制品头盔"));
     public static final SubItemGroup Chestplates = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "CHESTPLATES"), MetalWorks_General, new CustomItemStack(Material.DIAMOND_CHESTPLATE, "&f金属制品胸甲"));
-    public static final SubItemGroup Leggings = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "LEGGINGS"), MetalWorks_General, new CustomItemStack(Material.DIAMOND_LEGGINGS, "&f金属制品金属制品护腿"));
+    public static final SubItemGroup Leggings = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "LEGGINGS"), MetalWorks_General, new CustomItemStack(Material.DIAMOND_LEGGINGS, "&f金属制品护腿"));
     public static final SubItemGroup Boots = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "BOOTS"), MetalWorks_General, new CustomItemStack(Material.DIAMOND_BOOTS, "&f金属制品靴"));
     public static final SubItemGroup Swords = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "SWORDS"), MetalWorks_General, new CustomItemStack(Material.DIAMOND_SWORD, "&f金属制品剑"));
     public static final SubItemGroup Pickaxes = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "PICKAXES"), MetalWorks_General, new CustomItemStack(Material.DIAMOND_PICKAXE, "&f金属制品镐"));
     public static final SubItemGroup Axes = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "AXES"), MetalWorks_General, new CustomItemStack(Material.DIAMOND_AXE, "&f金属制品轴"));
     public static final SubItemGroup Shovels = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "SHOVELS"), MetalWorks_General, new CustomItemStack(Material.DIAMOND_SHOVEL, "&f金属制品铲子"));
     public static final SubItemGroup Hoes = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "HOES"), MetalWorks_General, new CustomItemStack(Material.DIAMOND_HOE, "&f金属制品锄头"));
-    public static final SubItemGroup Shields = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "SHIELDS"), MetalWorks_General, new CustomItemStack(Material.SHIELD, "&f金属制品护罩"));
+    public static final SubItemGroup Shields = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "SHIELDS"), MetalWorks_General, new CustomItemStack(Material.SHIELD, "&f金属制品护盾"));
     public static final SubItemGroup Bows = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "BOWS"), MetalWorks_General, new CustomItemStack(Material.BOW, "&金属制品弓"));
     public static final SubItemGroup Crossbows = new SubItemGroup(new NamespacedKey(MetalWorks.getInstance(), "CROSSBOWS"), MetalWorks_General, new CustomItemStack(Material.CROSSBOW, "&f金属制品弩"));
 
